@@ -1,6 +1,6 @@
 node_modules
 .idea
-slider.idea
-timer.idea
+slider/.idea
+timer/.idea
 .DS_Store
 app/bower
