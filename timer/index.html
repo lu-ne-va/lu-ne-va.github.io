@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="jquery-ui.css">
+    <link rel="stylesheet" href="main.css">
+    <title>Таймер обратного отсчета до пенсии</title>
+</head>
+<body>
+<div class="timer-container">
+    <span class="timer-text-phrase">До пенсии осталось</span>
+    <div class="timer">
+        <span id="weeks"></span>
+        <span>:</span>
+        <span id="days"></span>
+        <span>:</span>
+        <span id="hours"></span>
+        <span>:</span>
+        <span id="minutes"></span>
+        <span>:</span>
+        <span id="seconds"></span>
+    </div>
+    <div class="timer-text-container">
+        <span class="timer-text">Недель</span>
+        <span class="timer-text">Дней</span>
+        <span class="timer-text">Часов</span>
+        <span class="timer-text">Минут</span>
+        <span class="timer-text">Секунд</span>
+    </div>
+</div>
+<div id="success-text" class="success-text">Ура!!!! Пенсия</div>
+
+<form class="form" action='' id="data-form">
+    <div class="input-group">
+        <label class="input-label" for='datepicker'>Введите дату своего рождения</label>
+        <input class="input" id='datepicker' type="text" required>
+    </div>
+    <div class="input-group switch">
+        <span class="input-label">Выберите свой пол</span>
+        <label class="input-label-check">
+            Мужской
+            <input checked="" type="checkbox" id="sex">
+            <span class="lever"></span>
+            Женский
+        </label>
+    </div>
+    <button class="btn" type="submit">Посчитать!</button>
+</form>
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="jquery-ui.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
