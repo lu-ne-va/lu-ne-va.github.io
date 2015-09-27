@@ -1,0 +1,27 @@
+body {
+  user-select: none;
+  -webkit-user-select: none;
+}
+.slider {
+  border-radius: 5px;
+  width: 100%;
+  padding: 33px 0 15px 13px;
+  position: relative;
+  box-sizing: border-box;
+  font-size: 0;
+}
+.slider__thumb {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 55%;
+  top: 0;
+  background-color: darkviolet;
+  cursor: pointer;
+}
+.slider__progress {
+  width: 100%;
+  height: 3px;
+  position: relative;
+  background-color: darkviolet;
+}
