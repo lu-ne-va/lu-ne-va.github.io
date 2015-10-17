@@ -1,0 +1,50 @@
+
+.container {
+    padding-top: 15vh;
+    padding-left: 10vw;
+    display: inline-block;
+}
+
+.label {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 3px;
+
+}
+
+.input-group {
+    width: 220px;
+    display: inline-block;
+
+}
+
+.input-group__input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+    outline: none;
+    border: 1px solid #58697a;
+
+}
+
+.input-group__input:focus {
+    border: 1px solid #3ba8c0;
+
+}
+
+.input-group__list ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: 1px solid #58697a;
+    margin-top: -1px;
+}
+
+.input-group__list li{
+    padding: 5px;
+    cursor: pointer;
+}
+
+.input-group__list li:hover{
+    background-color: #F5F3F3;
+}
