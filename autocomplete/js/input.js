@@ -1,4 +1,4 @@
-define(['list'], function(List){
+define(['List'], function(List){
 
 	function setValue(){
 		document.getElementById('input').value = (event.target.textContent);
